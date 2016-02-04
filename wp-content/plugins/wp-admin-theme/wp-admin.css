@@ -1,0 +1,22 @@
+/*wp-admin-theme*/
+
+#wp-admin-bar-wp-logo > .ab-item .ab-icon{
+background:transparent url('http://dev.primitivespark.com/wp-content/themes/primitivespark/images/favicon.ico') no-repeat scroll center center;
+}
+
+#update-nag {
+display: none;
+}
+
+#footer-upgrade {
+display: none;
+}
+
+/*** Hide Certain Plugin Updates from the Admin view **/
+
+#slmenuwidget +.plugin-update-tr, #video-embed-widget + .plugin-update-tr, #magic-fields + .plugin-update-tr, #authors-widget + .plugin-update-tr
+{
+	display:none;
+}
+
+
