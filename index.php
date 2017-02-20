@@ -4,6 +4,7 @@
 	#ini_set('display_errors','on');
 	#error_reporting(E_ALL);
 	
+	//Set up custom query
 	$query =  array( 'post_type' => 'homepage', 'posts_per_page' => 1);
 	$custom_query = new WP_Query($query);
 
